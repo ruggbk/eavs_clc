@@ -2,7 +2,7 @@ from pathlib import Path
 
 from loguru import logger
 import pandas as pd
-from pandera.io import from_yaml
+from pandera.io.pandas_io import from_yaml
 import pyarrow as pa
 from yaml import safe_load
 
